@@ -133,7 +133,7 @@ export default function App() {
       <div className="pinkmeadium"></div>
       <div className="pinksmall"></div>
       <footer className="foot">
-        <p>Connet with me</p>
+        <p>Connect with me</p>
         <ul className="unlist">
           <li className="list">
             <a href="https://twitter.com/thelogeshwaran">
