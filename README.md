@@ -16,3 +16,4 @@ Here is the picture about the app..!!
 * It uses api  get todays stock price of the company.
 
 ## Project Link
+https://stock-portal-log.netlify.app/
