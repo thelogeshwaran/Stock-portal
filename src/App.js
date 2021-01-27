@@ -43,7 +43,7 @@ export default function App() {
         console.log(calc);
 
         var per = (calc / prviousamnt) * 100;
-        percent = per.toFixed(2);
+        var percent = per.toFixed(2);
 
         if (calc > 0) {
           win = "https://giphy.com/embed/Tex4wVhhs4iwKoV7YT";
