@@ -32,17 +32,17 @@ export default function App() {
       .then((event) => {
         var out = event.c;
         setToday(out);
-        prviousamnt = price * count;
+        var prviousamnt = price * count;
         console.log(prviousamnt);
 
-        curamnt = out * count;
+        var curamnt = out * count;
         console.log(curamnt);
 
-        calc = parseInt(curamnt) - parseInt(prviousamnt);
+        var calc = parseInt(curamnt) - parseInt(prviousamnt);
         calc = calc.toFixed(2);
         console.log(calc);
 
-        per = (calc / prviousamnt) * 100;
+        var per = (calc / prviousamnt) * 100;
         percent = per.toFixed(2);
 
         if (calc > 0) {
