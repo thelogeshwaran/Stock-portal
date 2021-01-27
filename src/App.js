@@ -46,16 +46,16 @@ export default function App() {
         var percent = per.toFixed(2);
 
         if (calc > 0) {
-          win = "https://giphy.com/embed/Tex4wVhhs4iwKoV7YT";
+          var win = "https://giphy.com/embed/Tex4wVhhs4iwKoV7YT";
           setGif(win);
           setResult(
             "You made profit of " + percent + "% which is " + calc + " rupees"
           );
         } else if (calc < 0) {
-          los = "https://giphy.com/embed/3ov9jRAkiY4GMsJJHa";
+          var los = "https://giphy.com/embed/3ov9jRAkiY4GMsJJHa";
           setGif(los);
           calc = calc * -1;
-          per = (calc / prviousamnt) * 100;
+          var per = (calc / prviousamnt) * 100;
           percent = per.toFixed(2);
           setResult(
             "You have lost " + percent + "% which is " + calc + " rupees"
